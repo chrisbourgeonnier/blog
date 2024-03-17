@@ -72,6 +72,6 @@ gem "devise", "~> 4.9"
 
 gem "tailwindcss-rails", "~> 2.3"
 
-# gem 'ruby-vips', '~> 2.2', '>= 2.2.1'
+gem 'ruby-vips', '~> 2.2', '>= 2.2.1'
 
 gem "aws-sdk-s3", require: false
