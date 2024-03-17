@@ -23,6 +23,9 @@ module Blog
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Used by ActionText to to add images to the post
     config.active_storage.variant_processor = :mini_magick
+    # Check ffmpeg for videos, poppler or muPDF for PDF previews
   end
 end
