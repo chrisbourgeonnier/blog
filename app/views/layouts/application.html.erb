@@ -21,8 +21,8 @@
         <%#= link_to "Profile", edit_user_registration_path %>
         <%= button_to "Log Out", destroy_user_session_path, method: :delete %>
       <%# Login and Sign Up commented out, as they are not relevant for a blog app %>
-      <%# else %>
-        <%#= link_to "Login", new_user_session_path %>
+      <% else %>
+        <%= link_to "Login", new_user_session_path %>
         <%#= link_to "Sign Up", new_user_registration_path %>
       <% end %>
     </div>
