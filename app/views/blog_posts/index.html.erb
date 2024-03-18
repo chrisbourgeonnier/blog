@@ -15,6 +15,7 @@
     <% elsif blog_post.scheduled? %>
       <div class="p-2 rounded bg-blue-100 text-blue-900">Scheduled</div>
     <% end  %>
-    <%= blog_post.content %>
+    <%= truncate(blog_post.content.to_plain_text, length: 250) %>
+    <%#= blog_post.content %>
   </div>
 <% end %>
