@@ -75,3 +75,5 @@ gem "tailwindcss-rails", "~> 2.3"
 gem 'ruby-vips', '~> 2.2', '>= 2.2.1'
 
 gem "aws-sdk-s3", require: false
+
+gem "pagy", "~> 7.0"

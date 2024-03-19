@@ -4,7 +4,7 @@
 </div>
 
 <% @blog_posts.each do |blog_post| %>
-  <div>
+  <div class="mb-8">
     <h2>
       <%= link_to blog_post.title, blog_post %>
       <%# equivalent to below, as Rails convention "guesses" we are calling the id on blog_post, and is also guessing the path. Remember to declare the "as: :blog_post" in routes %>
@@ -19,3 +19,5 @@
     <%#= blog_post.content %>
   </div>
 <% end %>
+
+<%== pagy_nav(@pagy) if @pagy.pages > 1 %>
