@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=https://github.com/libvips/libvips/releases
-HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/1291410/54e87b45-75f0-46de-967b-bbde3aafa355?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240317T113731Z&X-Amz-Expires=300&X-Amz-Signature=1585ea9b029a7afda651f5350b94a97afcba654a8bda6b87593696f156b0b621&X-Amz-SignedHeaders=host&actor_id=139029314&key_id=0&repo_id=1291410&response-content-disposition=attachment%3B%20filename%3Dvips-8.15.2.tar.xz&response-content-type=application%2Foctet-stream
