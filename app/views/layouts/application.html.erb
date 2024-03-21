@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>Chris' Blog</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -9,9 +9,24 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <meta name="description" content="My Blog as a Full-Stack Web Developer">
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Chris' Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rails-blog-nect.onrender.com/" />
+    <meta property="og:image" content="<%= image_path 'cb-favicon.ico' %>" />
+    <meta property="og:description" content="My Blog as a Full-Stack Web Developer" />
+    <meta property="og:site_name" content="Chris' Blog" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@twitter_handle">
+    <meta name="twitter:title" content="Chris' Blog">
+    <meta name="twitter:description" content="My Blog as a Full-Stack Web Developer">
+    <meta name="twitter:creator" content="@twitter_handle">
+    <meta name="twitter:image:src" content="<%= image_path 'cb-favicon.ico' %>">
   </head>
 
-  <body class="prose mx-auto mb-16">
+  <body class="prose mx-auto mb-16 bg-[url('background-diamonds.jpg')]">
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
