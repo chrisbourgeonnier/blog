@@ -45,16 +45,18 @@
 
     <%= yield %>
 
-    <footer class="mt-4 align-middle">
-      Under the hood:
-      <i class="devicon-ruby-plain-wordmark"></i>
-      <i class="devicon-rails-plain-wordmark"></i>
-      <i class="devicon-postgresql-plain-wordmark"></i>
-      <i class="fa-brands fa-aws"></i>
-      <i class="devicon-javascript-plain"></i>
-      <i class="devicon-tailwindcss-plain-wordmark"></i>
-      <i class="devicon-css3-plain-wordmark"></i>
-      <i class="devicon-html5-plain-wordmark"></i>
+    <footer class="mt-4 flex">
+      <div class="mx-auto flex">
+        <span class="my-auto">This blog was created using </span>
+        <i title="Ruby" class="devicon-ruby-plain colored"></i>
+        <i title="Rails" class="devicon-rails-plain colored"></i>
+        <i title="PostGreSQL" class="devicon-postgresql-plain colored"></i>
+        <i title="Amazon Web Services" class="fa-brands fa-aws"></i>
+        <i title="JavaScript" class="fa-brands fa-js" style="color: #ffc600;" ></i>
+        <i title="TailwindCSS" class="devicon-tailwindcss-plain colored"></i>
+        <i title="CSS3" class="devicon-css3-plain colored"></i>
+        <i title="HTML5" class="devicon-html5-plain colored"></i>
+      </div>
     </footer>
   </body>
 </html>

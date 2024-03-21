@@ -1,5 +1,6 @@
 .pagy {
   display: flex;
+  margin: auto;
 }
 
 .pagy > :not([hidden]) ~ :not([hidden]) {
