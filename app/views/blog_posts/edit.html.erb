@@ -1,5 +1,6 @@
-<h1>Edit Blog Post</h1>
+<div class="grid grid-cols-2 content-center">
+  <h1>Edit Blog Post</h1>
+  <%= button_to "Delete", @blog_post, method: :delete, data: {turbo_confirm: "Are you sure?"}, class: "bg-gray-100 px-4 py-2 rounded hover:bg-gray-200" %>
+</div>
 
 <%= render partial: 'form', locals: {blog_post: @blog_post} %>
-
-<%= button_to "Delete", @blog_post, method: :delete, data: {turbo_confirm: "Are you sure?"}, class: "bg-gray-100 px-4 py-2 rounded hover:bg-gray-200" %>

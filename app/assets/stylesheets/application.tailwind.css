@@ -12,3 +12,8 @@
 
 */
 @import 'actiontext.css';
+
+i {
+  padding: 1em 0.2em;
+  font-size: xx-large;
+}

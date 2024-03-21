@@ -6,6 +6,8 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= favicon_link_tag 'cb-favicon.ico' %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
@@ -26,7 +28,7 @@
     <meta name="twitter:image:src" content="<%= image_path 'cb-favicon.ico' %>">
   </head>
 
-  <body class="prose mx-auto mb-16 bg-[url('background-diamonds.jpg')]">
+  <body class="prose mx-auto mb-16 bg-fixed bg-[url('background-diamonds.jpg')]">
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
@@ -42,5 +44,17 @@
     </div>
 
     <%= yield %>
+
+    <footer class="mt-4 align-middle">
+      Under the hood:
+      <i class="devicon-ruby-plain-wordmark"></i>
+      <i class="devicon-rails-plain-wordmark"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
+      <i class="fa-brands fa-aws"></i>
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-tailwindcss-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+    </footer>
   </body>
 </html>
