@@ -1,0 +1,62 @@
+=> 
+[[32m#<BlogPost:0x00007f72a9fdad90[0m
+  id: [34m[1m35[0m,
+  title: [31m[1m"[0m[31mBlog Entry 27[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 02:58:06.927441000 UTC +00:00,
+  updated_at: Tue, 19 Mar 2024 04:04:40.000295000 UTC +00:00,
+  published_at: Tue, 19 Mar 2024 04:04:39.995845000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4ed8[0m
+  id: [34m[1m2[0m,
+  title: [31m[1m"[0m[31mHello World![0m[31m[1m"[0m,
+  created_at: Sun, 17 Mar 2024 02:46:16.934158000 UTC +00:00,
+  updated_at: Sun, 17 Mar 2024 06:57:00.072356000 UTC +00:00,
+  published_at: Sun, 17 Mar 2024 02:45:00.000000000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4d98[0m
+  id: [34m[1m36[0m,
+  title: [31m[1m"[0m[31mBlog Entry 28[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 02:58:06.995364000 UTC +00:00,
+  updated_at: Tue, 19 Mar 2024 04:04:40.013390000 UTC +00:00,
+  published_at: Tue, 19 Mar 2024 04:04:40.008068000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4c58[0m
+  id: [34m[1m3[0m,
+  title: [31m[1m"[0m[31mScheduled Post[0m[31m[1m"[0m,
+  created_at: Sun, 17 Mar 2024 02:52:48.442404000 UTC +00:00,
+  updated_at: Sun, 17 Mar 2024 07:04:38.999934000 UTC +00:00,
+  published_at: Wed, 17 Apr 2024 03:06:00.000000000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4b18[0m
+  id: [34m[1m37[0m,
+  title: [31m[1m"[0m[31mBlog Entry 29[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 02:58:07.046341000 UTC +00:00,
+  updated_at: Tue, 19 Mar 2024 04:04:40.026011000 UTC +00:00,
+  published_at: Tue, 19 Mar 2024 04:04:40.021624000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e49d8[0m
+  id: [34m[1m38[0m,
+  title: [31m[1m"[0m[31mBlog Entry 30[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 02:58:07.100716000 UTC +00:00,
+  updated_at: Tue, 19 Mar 2024 04:04:40.041035000 UTC +00:00,
+  published_at: Tue, 19 Mar 2024 04:04:40.036599000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4898[0m
+  id: [34m[1m39[0m,
+  title: [31m[1m"[0m[31mBlog Entry 31[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 02:58:07.158784000 UTC +00:00,
+  updated_at: Tue, 19 Mar 2024 04:04:40.057019000 UTC +00:00,
+  published_at: Tue, 19 Mar 2024 04:04:40.052172000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4758[0m
+  id: [34m[1m40[0m,
+  title: [31m[1m"[0m[31mBlog Entry 32[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 02:58:07.217524000 UTC +00:00,
+  updated_at: Tue, 19 Mar 2024 04:04:40.073883000 UTC +00:00,
+  published_at: Tue, 19 Mar 2024 04:04:40.068637000 UTC +00:00[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4618[0m
+  id: [34m[1m108[0m,
+  title: [31m[1m"[0m[31mDaft Draft[0m[31m[1m"[0m,
+  created_at: Tue, 19 Mar 2024 03:48:17.732050000 UTC +00:00,
+  updated_at: Wed, 20 Mar 2024 09:40:37.721990000 UTC +00:00,
+  published_at: [36m[1mnil[0m[32m>[0m,
+ [32m#<BlogPost:0x00007f72aa1e4398[0m
+  id: [34m[1m1[0m,
+  title: [31m[1m"[0m[31mTesting image storage on AWS S3[0m[31m[1m"[0m,
+  created_at: Sat, 16 Mar 2024 12:37:17.507594000 UTC +00:00,
+  updated_at: Sun, 17 Mar 2024 14:55:02.669859000 UTC +00:00,
+  published_at: Sun, 17 Mar 2024 17:59:00.000000000 UTC +00:00[32m>[0m,
+ [31m[1m"[0m[31m...[0m[31m[1m"[0m]
